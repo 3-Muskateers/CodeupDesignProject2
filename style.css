@@ -1,0 +1,12 @@
+/*setting logo background*/
+
+/*setting top logo*/
+.topLogo{
+    width: 100px;
+}
+.container{
+    background-color: rgb(240,240,240);
+}
+a{
+    color: black;
+}
