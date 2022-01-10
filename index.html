@@ -2,56 +2,69 @@
 <html lang="en">
 <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
           integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <!--    <link rel="assets" href=".idea/assets">-->
+
     <title>Codeup Design</title>
 </head>
 <body>
-<div class="container ">
-    <header class="top d-flex row justify-content-center" id="top">
-        <div class="whiteBar d-flex bg-white col-sm justify-content-center">
-            <img class="topLogo " src="assets/assets 2/logo.png" alt="logo pic">
-        </div>
-        <h1 class="col-sm text-center">CodeUp Design</h1>
-        <nav>
-            <ul class="nav justify-content-center">
-                <li class="nav-items">
-                    <a class="nav-link" href="#!">Services</a></li>
-                <li class="nav-items">
-                    <a class="nav-link" href="#!">Work</a></li>
-                <li class="nav-items">
-                    <a class="nav-link" href="#!">Blog</a></li>
-                <li class="nav-items">
-                    <a class="nav-link" href="#!">Contact</a></li>
-            </ul>
+<div class=" ">
+    <div class="whiteBar nav-background bg-light "></div>
+    <div class="wrapper">
+        <nav class="navbar navbar-light">
+            <div class="container-fluid">
+                <ul class="nav w-100 justify-content-center">
+                    <li class="order-md-3 order-lg-0 mr-lg-auto">
+                        <a href="#" class="navbar-brand d-block w-100 mb-2 m-md-0 text-center">
+                            <img class="" width="105px" src="assets/assets 2/logo.png" alt="Codeup Design logo">
+                            <div class="brand-name d-block d-lg-inline text-center w-100">codeup design</div>
+                        </a>
+                    </li>
+                    <div class="w-100 d-md-none"></div><!-- used to force line break in flex items for mobile -->
+                    <li class="nav-item order-md-1 order-lg-1 mt-md-5">
+                        <a class="nav-link text-uppercase px-2 px-md-3" href="">Services</a>
+                    </li>
+                    <li class="nav-item order-md-2 order-lg-2 mt-md-5">
+                        <a class="nav-link text-uppercase px-2 pl-md-3 pr-md-0 px-lg-3" href="">Work</a>
+                    </li>
+                    <li class="nav-item order-md-4 order-lg-3 mt-md-5">
+                        <a class="nav-link text-uppercase px-2 pl-md-0 pr-md-3 px-lg-3" href="">Blog</a>
+                    </li>
+                    <li class="nav-item order-md-5 order-lg-4 mt-md-5">
+                        <a class="nav-link text-uppercase px-2 px-md-3" href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-
-    </header>
-    <div class="row">
-        <div class="col">
+    </div>
+    <header>
+        <div class="row d-flex text-center justify-content-center mx-4">
             <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
         </div>
-    </div>
-    <div class="row">
-        <h2>FROM PARK CITY, UTAH</h2>
-    </div>
-    <div class="circlesBox">
-        <span class="circles bg-danger">DESIGN</span>
-        <span class="circles badge  badge-warning">DEVELOP</span>
-        <span class="circles badge  badge-success">SUPPORT</span>
-        <span class="circles badge  badge-info">HOST</span>
+        <div class="row d-flex justify-content-center text-center">
+            <h2>FROM PARK CITY, UTAH</h2>
+        </div>
+    </header>
+<!--    big circles-->
+    <div class="circlesBox d-flex row mx-3 justify-content-center">
+        <span class="circles badge badge-danger col-sm-6 col-lg-3">DESIGN</span>
+        <span class="circles badge  badge-warning col-sm-6 col-lg-3">DEVELOP</span>
+        <span class="circles badge  badge-success col-sm-6 col-lg-3">SUPPORT</span>
+        <span class="circles badge  badge-info col-sm-6 col-lg-3">HOST</span>
     </div>
 
     <hr>
+<!--    content, img + info-->
     <h4 class="d-flex justify-content-center">Selected Work</h4>
     <div class="">
-        <img class="img-fluid" src="assets/assets 2/images/apple-ipad.jpg" alt="apples on laptop">
+        <img class="img w-100" src="assets/assets 2/images/apple-ipad.jpg" alt="apples on laptop">
         <div class="d-flex flex-row justify-content-between">
             <p class="">featured Projects</p>
             <div class="">
@@ -63,7 +76,7 @@
         </div>
     </div>
     <div>
-        <img class="img-fluid"  src="assets/assets 2/images/macbook.jpg" alt="mac book">
+        <img class="img-fluid" src="assets/assets 2/images/macbook.jpg" alt="mac book">
         <div class="d-flex flex-row justify-content-between">
             <p>featured Projects</p>
             <div>
@@ -75,7 +88,7 @@
         </div>
     </div>
     <div>
-        <img class="img-fluid"  src="assets/assets 2/images/security.jpg" alt="security">
+        <img class="img-fluid" src="assets/assets 2/images/security.jpg" alt="security">
         <div class="d-flex flex-row justify-content-between">
             <p>featured Projects</p>
             <div>
@@ -87,7 +100,7 @@
         </div>
     </div>
     <div>
-        <img class="img-fluid"  src="assets/assets 2/images/man.jpg" alt="glasses man">
+        <img class="img-fluid" src="assets/assets 2/images/man.jpg" alt="glasses man">
         <div class="d-flex flex-row justify-content-between">
             <p>featured Projects</p>
             <div>
@@ -108,7 +121,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
 </body>
 </html>
